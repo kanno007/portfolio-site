@@ -1,0 +1,19 @@
+# Force HTTPS and use www.thekishan.com. Applies only to thekishan.com,
+# so any other hostname that shares this folder is left alone.
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(www\.)?thekishan\.com$ [NC]
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^thekishan\.com$ [NC]
+RewriteRule ^(.*)$ https://www.thekishan.com/$1 [R=301,L]
+
+ErrorDocument 404 /404.html
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml text/xml
+</IfModule>
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType text/css "access plus 1 week"
+  ExpiresByType application/javascript "access plus 1 week"
+</IfModule>

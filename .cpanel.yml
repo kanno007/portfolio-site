@@ -7,3 +7,4 @@ deployment:
     - export DEPLOYPATH=/home1/myinde3z/public_html/thekishan.com/
     - /bin/mkdir -p $DEPLOYPATH
     - /bin/cp -R ./* $DEPLOYPATH
+    - /bin/cp ./.htaccess $DEPLOYPATH
