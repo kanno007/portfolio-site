@@ -1,10 +1,9 @@
 ---
 # Runs when you press "Deploy HEAD Commit" in cPanel > Git Version Control.
 # 1. Already set to your cPanel home folder (/home1/myinde3z).
-# 2. For the first test keep "preview". For the live site change it to:
-#    export DEPLOYPATH=/home1/myinde3z/public_html/
+# 2. Deploys the live site into the thekishan.com folder. To test elsewhere use e.g. /home1/myinde3z/public_html/preview/
 deployment:
   tasks:
-    - export DEPLOYPATH=/home1/myinde3z/public_html/preview/
+    - export DEPLOYPATH=/home1/myinde3z/public_html/thekishan.com/
     - /bin/mkdir -p $DEPLOYPATH
     - /bin/cp -R ./* $DEPLOYPATH
