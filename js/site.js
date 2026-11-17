@@ -246,7 +246,7 @@
   });
 
   /* ---------- Case studies: section list in the rail ---------- */
-  var caseRails = document.querySelectorAll('.case-story');
+  var caseRails = document.querySelectorAll('.case-story'), caseItems = [];
   for (var cr = 0; cr < caseRails.length; cr++) (function (wrapEl, n) {
     var toc = wrapEl.querySelector('.case-toc-list'), stories = wrapEl.querySelectorAll('.case-col .story');
     for (var i = 0; i < stories.length; i++) {
@@ -256,7 +256,25 @@
       b.type = 'button'; b.textContent = lab ? lab.textContent : h.textContent; b.setAttribute('data-target', id);
       b.addEventListener('click', function () { var el = document.getElementById(this.getAttribute('data-target')); if (el) el.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' }); });
       li.appendChild(b); toc.appendChild(li);
+      caseItems.push({ b: b, el: stories[i] });
     }
   })(caseRails[cr], cr);
+
+  /* Highlight the section currently being read in the rail */
+  if (caseItems.length) {
+    var caseTick = false;
+    var markCase = function () {
+      caseTick = false;
+      var line = window.innerHeight * 0.35, cur = null;
+      for (var k = 0; k < caseItems.length; k++) if (caseItems[k].el.getBoundingClientRect().top <= line) cur = caseItems[k];
+      for (var m = 0; m < caseItems.length; m++) {
+        var on = caseItems[m] === cur;
+        caseItems[m].b.classList.toggle('is-active', on);
+        if (on) caseItems[m].b.setAttribute('aria-current', 'true'); else caseItems[m].b.removeAttribute('aria-current');
+      }
+    };
+    window.addEventListener('scroll', function () { if (!caseTick) { caseTick = true; requestAnimationFrame(markCase); } }, { passive: true });
+    markCase();
+  }
 
 })();
