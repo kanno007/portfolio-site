@@ -278,3 +278,35 @@
   }
 
 })();
+
+/* Click any zoomable image to view it full screen */
+(function () {
+  document.addEventListener('click', function (e) {
+    var t = e.target;
+    if (!(t && t.classList && t.classList.contains('zoomable'))) return;
+    var lb = document.createElement('div');
+    lb.className = 'lightbox';
+    lb.setAttribute('role', 'dialog');
+    lb.setAttribute('aria-label', t.alt || 'Image');
+    var im = document.createElement('img');
+    im.src = t.currentSrc || t.src;
+    im.alt = t.alt || '';
+    function setTall() { if (im.naturalHeight > im.naturalWidth * 1.25) lb.classList.add('tall'); }
+    if (im.complete) setTall(); else im.addEventListener('load', setTall);
+    var hint = document.createElement('span');
+    hint.className = 'lb-hint';
+    hint.textContent = 'Tap anywhere or press Esc to close';
+    lb.appendChild(im);
+    lb.appendChild(hint);
+    document.body.appendChild(lb);
+    document.body.style.overflow = 'hidden';
+    function close() {
+      if (lb.parentNode) lb.parentNode.removeChild(lb);
+      document.body.style.overflow = '';
+      document.removeEventListener('keydown', onKey);
+    }
+    function onKey(ev) { if (ev.key === 'Escape') close(); }
+    lb.addEventListener('click', close);
+    document.addEventListener('keydown', onKey);
+  });
+})();
