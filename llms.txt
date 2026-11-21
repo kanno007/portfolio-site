@@ -1,0 +1,40 @@
+# Kishan Mendapara
+
+> Product designer with 12 years of experience, based in Ahmedabad, India, working with US and global teams. Founding product designer at Novo (US business banking), six years leading designers. 50+ shipped products across fintech, healthcare, B2B SaaS and media. Open to design leadership roles, full-time or fractional. Uses Claude Code and Figma MCP daily, with human review.
+
+## Case studies
+
+- [Novo](https://www.thekishan.com/work/novo/): Business banking a small business owner can open and run from a phone. First designer, then design lead.
+- [SPH Media](https://www.thekishan.com/work/sph-media/): One token-based design language for a dozen live publications, introduced without stopping the presses.
+- [WellDyneRX](https://www.thekishan.com/work/welldynerx/): Specialty pharmacy platform for prescriptions, patients and providers, on web and mobile.
+- [ICC Digital Codes](https://www.thekishan.com/work/icc-digital-codes/): Construction codes you can search and read on a job site, not only at a desk.
+- [AesthetiDocs](https://www.thekishan.com/work/aesthetidocs/): Led the design team across the booking website, self sign-up, leads and tasks, and the coded marketing site for a clinic platform.
+- [Harrir](https://www.thekishan.com/work/harrir/): Website, mobile app, admin console and the AI Training Console for a Turkish-fashion marketplace in Iraq, with the front end generated from the design.
+- [AfterSmile](https://www.thekishan.com/work/aftersmile/): A privacy-first mobile app that takes, aligns, brands and shares a dentist's before-and-after photos, with a demo mode and a full design system.
+- [RA8M](https://www.thekishan.com/work/ra8m/): RA8M Store, the storefront and admin for sellers who live on Instagram, and RA8M POS, one till that fits a restaurant, a pharmacy, an electronics shop and a cafe. Two case studies on one system.
+- [EuroPeir Hub](https://www.thekishan.com/work/europeir/): Four products on one request ID for an Italian industrial waste company: the portal where a job starts, the console where it is planned, the app where it is proved. Three case studies, one per actor.
+- [Piggy Bank POS](https://www.thekishan.com/work/piggybank/): A point of sale for retailers, food service and service businesses on a portrait terminal: 23 modules, two commercial programs, and about 500 frames that reached development without a single redline.
+- [RemitChoice](https://www.thekishan.com/work/remitchoice/): The customer app for a remittance business with the licences in place and no product that could finish a first transfer: 328 screens, two identity walls taken down, and tracking the recipient can open without an account.
+- [Universell](https://www.thekishan.com/work/universell/): A platform that had outgrown its own interface: forty-five tools, 3,000 screens, one new library and a rollout nobody was forced into. Plus the till that runs on the same system, from a market stall to a supermarket lane.
+- [All work](https://www.thekishan.com/work/): Selected product design work across fintech, healthcare, e-commerce, logistics, media and construction tech.
+
+## Writing
+
+- [Journal](https://www.thekishan.com/journal/): Notes on design systems, leading designers, and working with AI without losing the craft.
+- [Tokens are a contract, not a colour palette](https://www.thekishan.com/journal/tokens-are-a-contract/): What changed the engineers’ minds at SPH Media, and three rules for anyone starting a token system.
+- [The first 90 days as the only designer](https://www.thekishan.com/journal/first-90-days-only-designer/): What I would do again from my first three months at Novo, and the one thing I would skip.
+- [A form is a conversation, not a database](https://www.thekishan.com/journal/a-form-is-a-conversation/): Lessons from KYC at Novo that apply to any sign-up form that loses people.
+- [What Claude Code and Figma MCP actually do in my week](https://www.thekishan.com/journal/claude-code-figma-mcp/): The Tuesday-afternoon version of AI in design, and the parts I don’t hand over.
+- [Research synthesis with Claude: what I keep and what I throw away](https://www.thekishan.com/journal/research-synthesis-with-claude/): A first pass in minutes is only useful if you know which parts to distrust.
+- [Reviewing every screen without becoming the bottleneck](https://www.thekishan.com/journal/reviewing-every-screen/): How written, teachable feedback let me stay in the work at Novo without slowing the team down.
+- [Presenting trade-offs to founders in business terms](https://www.thekishan.com/journal/trade-offs-in-business-terms/): Founders do not reject good design. They reject design they cannot price.
+- [Designing for the phone call you are replacing](https://www.thekishan.com/journal/designing-for-the-phone-call/): Every phone call in a workflow is a missing state in the product. WellDyneRX taught me to map them.
+- [Figma MCP to code: where it saves a sprint and where it cuts corners](https://www.thekishan.com/journal/figma-mcp-to-code/): The gap between prototype and production is now an afternoon. The corners it cuts are predictable, which means they are fixable.
+- [Migrating live products to a system without stopping them](https://www.thekishan.com/journal/migrating-live-products/): SPH Media had a dozen publications in market. The system had to arrive underneath them.
+- [Five surfaces, one system: what breaks first](https://www.thekishan.com/journal/five-surfaces-one-system/): iOS, Android, web app, marketing site and admin on one system at Novo. Density was the first thing to give.
+- [Activation funnels are design work](https://www.thekishan.com/journal/activation-funnels-are-design-work/): At Novo the landing pages and onboarding were one flow. Treating them as separate departments is how funnels leak.
+
+## About and contact
+
+- [About](https://www.thekishan.com/about/): Work history, skills, education and how I work with businesses.
+- [Contact](https://www.thekishan.com/contact/): Email designbabu09@gmail.com or call +91 85119 68186. Starts with a 30-minute call.
